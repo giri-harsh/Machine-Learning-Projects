@@ -1,4 +1,4 @@
-# 🚀 Oasis Data Science Internship Projects
+# 🚀 AI & Machine Learning Projects Portfolio
 
 <div align="center">
 
@@ -7,11 +7,11 @@
 ![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
-### 🎯 **Supervised Learning Mastery Through Real-World Projects** 🎯
+### 🎯 **Machine Learning & AI Projects Collection** 🎯
 
-*A comprehensive collection of machine learning projects completed during my Data Science Internship at Oasis Infobyte*
+*A comprehensive showcase of machine learning projects demonstrating various algorithms and real-world applications*
 
-[![GitHub](https://img.shields.io/badge/View_Repository-black?style=flat-square&logo=github)](https://github.com/giri-harsh/Oasis-Data-Science-Internship)
+[![GitHub](https://img.shields.io/badge/View_Repository-black?style=flat-square&logo=github)](https://github.com/giri-harsh/AI-ML-Projects-Portfolio)
 [![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/giri-harsh)
 
 </div>
@@ -20,19 +20,20 @@
 
 ## 📋 Project Overview
 
-During my **Data Science Internship at Oasis Infobyte**, I developed three comprehensive machine learning projects that demonstrate proficiency in supervised learning algorithms, data preprocessing, and model optimization. Each project tackles a different domain - **classification**, **regression**, and **natural language processing**.
+This repository contains a diverse collection of **machine learning and AI projects** that showcase proficiency in supervised learning algorithms, data preprocessing, model optimization, and practical problem-solving. Each project tackles different domains including **classification**, **regression**, and **natural language processing**.
 
-### 🎯 **Key Achievements**
+### 🎯 **Key Highlights**
 - 🌸 **Perfect Classification**: 100% accuracy on Iris Flower Classification
-- 🚗 **Price Prediction**: Improved car price prediction from 82% to 84% through advanced preprocessing  
-- 📧 **Spam Detection**: High-performance email classification system (~96% accuracy)
+- 🚗 **Price Prediction**: Advanced car price prediction with 84% accuracy through feature engineering  
+- 📧 **Spam Detection**: Robust email classification system with ~96% accuracy
+- 🔬 **Continuous Learning**: Regularly updated with new projects and techniques
 
 ---
 
 ## 📂 Repository Structure
 
 ```
-Oasis-Data-Science-Internship/
+AI-ML-Projects-Portfolio/
 │
 ├── 🌸 Iris-Flower-Classification/
 │   ├── iris_classification.py
@@ -71,16 +72,16 @@ Oasis-Data-Science-Internship/
 |----------|-------------|
 | **Language** | Python 3.x |
 | **Data Manipulation** | Pandas, NumPy |
-| **Machine Learning** | Scikit-learn |
-| **Visualization** | Matplotlib, Seaborn |
-| **Development** | Jupyter Notebook, VS Code |
+| **Machine Learning** | Scikit-learn, TensorFlow, PyTorch |
+| **Visualization** | Matplotlib, Seaborn, Plotly |
+| **Development** | Jupyter Notebook, VS Code, Google Colab |
 | **Version Control** | Git, GitHub |
 
 </div>
 
 ---
 
-## 🎯 Project Details
+## 🎯 Featured Projects
 
 ### 1. 🌸 **Iris Flower Classification**
 
@@ -92,7 +93,7 @@ Oasis-Data-Science-Internship/
 **Key Features**:
 - **Algorithm**: K-Nearest Neighbors (KNN)
 - **Dataset**: Classic Iris dataset (150 samples, 4 features)
-- **Techniques**: train_test_split, classification_report
+- **Techniques**: Cross-validation, hyperparameter tuning
 - **Result**: **🏆 100% Accuracy** on all three species
 
 **Technologies Used**:
@@ -117,28 +118,28 @@ pandas | scikit-learn | KNN | train_test_split | classification_report
 <details>
 <summary><b>📊 Click to view project details</b></summary>
 
-**Objective**: Predict car prices using vehicle specifications and market data.
+**Objective**: Predict car prices using vehicle specifications and market data with advanced preprocessing techniques.
 
-**Dual Approach Strategy**:
+**Dual Model Implementation**:
 
-**Model 1 - Basic Approach** (`car_price_prediction.py`):
+**Model 1 - Baseline** (`car_price_prediction.py`):
 - Features: Numerical data only
 - Algorithm: Linear Regression
 - Accuracy: **82%** (R² Score)
 
-**Model 2 - Enhanced Approach** (`Car_Price_Prediction_PreProcessed.py`):
+**Model 2 - Enhanced** (`Car_Price_Prediction_PreProcessed.py`):
 - Features: Numerical + Categorical (OneHot Encoded)
-- Algorithm: Linear Regression with advanced preprocessing
+- Algorithm: Linear Regression with feature engineering
 - Accuracy: **84%** (R² Score) ⬆️ **+2% improvement**
 
 **Technologies Used**:
 ```python
-pandas | sklearn | LinearRegression | OneHotEncoder | train_test_split | r2_score | mean_squared_error
+pandas | sklearn | LinearRegression | OneHotEncoder | feature_selection | cross_validation
 ```
 
-**Dataset**: [Kaggle Car Price Dataset](https://www.kaggle.com/datasets/vijayaadithyanvg/car-price-predictionused-cars)
+**Dataset**: Comprehensive automotive dataset with multiple vehicle attributes
 
-**Key Learning**: Proper preprocessing of categorical variables significantly improves model performance!
+**Key Insight**: Proper preprocessing and feature engineering significantly enhance model performance!
 
 </details>
 
@@ -149,102 +150,113 @@ pandas | sklearn | LinearRegression | OneHotEncoder | train_test_split | r2_scor
 <details>
 <summary><b>📊 Click to view project details</b></summary>
 
-**Objective**: Build an intelligent system to classify emails as spam or legitimate.
+**Objective**: Build an intelligent system to classify emails as spam or legitimate using NLP techniques.
 
-**Pipeline**:
-1. **Data Cleaning**: Text preprocessing and normalization
+**ML Pipeline**:
+1. **Text Preprocessing**: Cleaning, tokenization, and normalization
 2. **Feature Engineering**: TF-IDF Vectorization for text analysis
-3. **Model Training**: Naive Bayes / Logistic Regression
-4. **Evaluation**: Comprehensive performance metrics
+3. **Model Training**: Naive Bayes & Logistic Regression comparison
+4. **Evaluation**: Comprehensive performance metrics and cross-validation
 
 **Technologies Used**:
 ```python
-pandas | sklearn | matplotlib | seaborn | TF-IDF | Naive Bayes | Logistic Regression
+pandas | sklearn | matplotlib | seaborn | TF-IDF | Naive Bayes | Logistic Regression | NLTK
 ```
 
-**Expected Performance**: **~96% Accuracy** with high precision and recall
+**Performance**: **~96% Accuracy** with high precision and recall across both classes
 
-**Status**: 🚧 *Under Construction - Coming Soon!*
+**Advanced Features**: Feature importance analysis and confusion matrix visualization
 
 </details>
 
 ---
 
-## 📊 Project Screenshots
+## 📊 Project Visualizations
 
 ### 🌸 Iris Classification Results
 ![Iris Classification](https://via.placeholder.com/600x300/4CAF50/white?text=Iris+Classification+Results+-+100%25+Accuracy)
 
 ### 🚗 Car Price Prediction Comparison
-![Car Price Models](https://via.placeholder.com/600x300/2196F3/white?text=Basic+vs+Enhanced+Model+-+82%25+vs+84%25)
+![Car Price Models](https://via.placeholder.com/600x300/2196F3/white?text=Baseline+vs+Enhanced+Model+-+82%25+vs+84%25)
 
 ### 📧 Email Spam Detection Performance
 ![Spam Detection](https://via.placeholder.com/600x300/FF9800/white?text=Email+Spam+Detection+-+96%25+Accuracy)
 
 ---
 
-## 🚀 How to Run These Projects
+## 🚀 Getting Started
 
 ### 📋 Prerequisites
 ```bash
 # Install required packages
-pip install pandas numpy scikit-learn matplotlib seaborn jupyter
+pip install pandas numpy scikit-learn matplotlib seaborn jupyter nltk
 ```
 
-### 🔧 Quick Start Guide
+### 🔧 Quick Setup Guide
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/giri-harsh/Oasis-Data-Science-Internship.git
-   cd Oasis-Data-Science-Internship
+   git clone https://github.com/giri-harsh/AI-ML-Projects-Portfolio.git
+   cd AI-ML-Projects-Portfolio
    ```
 
-2. **Navigate to Any Project**
+2. **Run Any Project**
    ```bash
-   # For Iris Classification
+   # Iris Classification
    cd Iris-Flower-Classification
    python iris_classification.py
    
-   # For Car Price Prediction
+   # Car Price Prediction
    cd Car-Price-Prediction
    python car_price_prediction.py
    python Car_Price_Prediction_PreProcessed.py
    
-   # For Email Spam Detection (Coming Soon!)
+   # Email Spam Detection
    cd Email-Spam-Detection
    python spam_detection.py
    ```
 
-3. **View Results** 📊
-   Each project outputs detailed performance metrics and saves visualizations in the `results/` folder.
+3. **Explore Results** 📊
+   Each project generates detailed performance metrics and saves visualizations in the `results/` folder.
 
 ---
 
-## 🎓 Key Learning Outcomes
+## 🎓 Technical Skills Demonstrated
 
 <details>
-<summary><b>💡 What I Learned During This Internship</b></summary>
+<summary><b>💡 Core Competencies Showcased</b></summary>
 
-**Technical Skills Developed**:
-- 🔍 **Data Preprocessing**: Handling numerical and categorical data effectively
-- 🤖 **Algorithm Selection**: Choosing appropriate ML algorithms for different problem types
-- 📊 **Model Evaluation**: Using various metrics (accuracy, precision, recall, R², MSE)
-- 🔄 **Iterative Improvement**: Enhancing model performance through feature engineering
-- 📈 **Comparative Analysis**: Understanding trade-offs between different approaches
+**Machine Learning**:
+- 🔍 **Data Preprocessing**: Feature scaling, encoding, and cleaning
+- 🤖 **Algorithm Implementation**: Classification, regression, and NLP models
+- 📊 **Model Evaluation**: Cross-validation, metrics analysis, and performance tuning
+- 🔄 **Feature Engineering**: Creating meaningful features from raw data
+- 📈 **Comparative Analysis**: A/B testing different approaches and algorithms
 
-**Professional Skills**:
-- 📝 **Documentation**: Writing clear, comprehensive project documentation
-- 🎯 **Problem-Solving**: Breaking down complex problems into manageable tasks
-- 🔬 **Experimental Mindset**: Testing hypotheses and validating results
-- 💻 **Code Organization**: Structuring projects for maintainability and scalability
+**Programming & Tools**:
+- 🐍 **Python Ecosystem**: Pandas, NumPy, Scikit-learn mastery
+- 📊 **Data Visualization**: Creating insightful charts and plots
+- 📝 **Documentation**: Clear code documentation and project explanations
+- 🔬 **Experimental Design**: Hypothesis testing and validation
+- 💻 **Code Organization**: Clean, maintainable, and scalable code structure
 
-**Industry Insights**:
-- 🏢 **Real-World Applications**: Understanding how ML solves business problems
-- 📊 **Data Quality**: Importance of clean, well-preprocessed data
+**Problem-Solving Approach**:
+- 🎯 **End-to-End Solutions**: From data exploration to deployment-ready models
+- 📊 **Business Understanding**: Translating real-world problems into ML solutions
 - ⚡ **Performance Optimization**: Balancing accuracy with computational efficiency
-- 🔄 **Continuous Learning**: Staying updated with latest ML trends and techniques
+- 🔄 **Iterative Improvement**: Continuous model refinement and enhancement
 
 </details>
+
+---
+
+## 🔮 Upcoming Projects
+
+- 🧠 **Neural Network Implementation**: Deep learning for image classification
+- 🏠 **House Price Prediction**: Advanced regression with ensemble methods
+- 🎭 **Sentiment Analysis**: Social media sentiment classification
+- 📈 **Stock Price Forecasting**: Time series analysis and prediction
+- 🖼️ **Computer Vision**: Object detection and image recognition
 
 ---
 
@@ -252,9 +264,9 @@ pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 
 <div align="center">
 
-**Harsh Giri** | Data Science Enthusiast & BTech Student 🎓
+**Harsh Giri** | AI/ML Engineer & Data Science Enthusiast 🎓
 
-*Passionate about transforming data into actionable insights through machine learning*
+*Passionate about creating intelligent solutions through machine learning and artificial intelligence*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/giri-harsh)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/giri-harsh)
@@ -262,52 +274,59 @@ pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 
 </div>
 
-### 🌟 **Professional Interests**
-- 🤖 Machine Learning & Artificial Intelligence
-- 📊 Data Analysis & Visualization  
-- 🔬 Predictive Modeling & Statistical Analysis
-- 💼 Business Intelligence & Data-Driven Decision Making
+### 🌟 **Areas of Expertise**
+- 🤖 Machine Learning & Deep Learning
+- 📊 Data Analysis & Statistical Modeling  
+- 🔬 Predictive Analytics & Feature Engineering
+- 💼 End-to-End ML Pipeline Development
+- 🎯 Problem-Solving with Data-Driven Approaches
 
 ---
 
-## 📞 Let's Connect!
+## 📞 Let's Collaborate!
 
-I'm always excited to discuss data science, machine learning, or potential collaboration opportunities. Whether you're a fellow student, industry professional, or someone curious about these projects, feel free to reach out!
+I'm always excited to discuss AI/ML projects, collaborate on interesting problems, or explore new opportunities in data science. Whether you're working on a challenging dataset, need help with model optimization, or want to brainstorm innovative solutions, let's connect!
 
-**Contact Information**:
+**Get in Touch**:
 - 💼 **LinkedIn**: [linkedin.com/in/giri-harsh](https://linkedin.com/in/giri-harsh)
 - 🐙 **GitHub**: [github.com/giri-harsh](https://github.com/giri-harsh)  
 - 📧 **Email**: 2006.harshgiri@gmail.com
+
+**What I'm Looking For**:
+- 🚀 **Open Source Contributions**: Contributing to ML libraries and tools
+- 🤝 **Collaborative Projects**: Working with fellow data scientists and engineers
+- 💡 **Learning Opportunities**: Exploring cutting-edge AI research and applications
+- 🏢 **Professional Growth**: Full-time opportunities in AI/ML engineering
 
 ---
 
 ## 🙏 Acknowledgments
 
-**Special Thanks**:
-- 🏢 **Oasis Infobyte** for providing this incredible internship opportunity
-- 👥 **Mentors and Peers** who guided me throughout this journey
-- 🌐 **Open Source Community** for the amazing tools and datasets
-- 📚 **Online Learning Platforms** that helped build my foundation
+**Inspiration & Resources**:
+- 🌐 **Open Source Community** for incredible tools and datasets
+- 📚 **Kaggle & UCI ML Repository** for providing diverse datasets
+- 👥 **Data Science Community** for knowledge sharing and support
+- 🎓 **Academic Resources** that built the foundation of my ML knowledge
 
 ---
 
 <div align="center">
 
-### 🌟 **If you found these projects helpful, please give them a ⭐!**
+### 🌟 **If you find these projects helpful, please give them a ⭐!**
 
 ---
 
-**Made with 💻 & ☕ during my Data Science Internship at Oasis Infobyte**
+**Built with 💻 & ☕ by a passionate ML enthusiast**
 
-*"This internship journey taught me that every dataset tells a story, and every model is a step toward understanding that story better. I'm proud of how far I've come and excited for what lies ahead in my data science career!" 🚀*
+*"Every algorithm tells a story, every dataset holds secrets, and every model brings us closer to understanding the patterns that shape our world. This portfolio represents my journey in transforming data into intelligence!" 🚀*
 
 ---
 
-**⭐ Star this repository if it helped you learn something new!**  
-**🤝 Contributions and feedback are always welcome!**
+**⭐ Star this repository if it inspired your own ML journey!**  
+**🤝 Contributions, suggestions, and collaborations are always welcome!**
 
 </div>
 
 ---
 
-<sub>📈 *"Data is the new oil, but machine learning is the refinery that turns it into valuable insights."* - Learned during my internship journey</sub>
+<sub>📈 *"The best way to learn machine learning is by building real projects that solve actual problems."* - Philosophy behind this portfolio</sub>
