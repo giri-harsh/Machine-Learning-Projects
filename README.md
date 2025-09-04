@@ -317,7 +317,8 @@ I'm always excited to discuss AI/ML projects, collaborate on interesting problem
 ---
 
 **Built with 💻 & ☕ by a passionate ML enthusiast**
-
+https://loan-approval-harsh-giri.streamlit.app/
+https://heart-disease-prediction-harsh-giri.streamlit.app/
 *"Every algorithm tells a story, every dataset holds secrets, and every model brings us closer to understanding the patterns that shape our world. This portfolio represents my journey in transforming data into intelligence!" 🚀*
 
 ---
